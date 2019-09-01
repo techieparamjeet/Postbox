@@ -11,7 +11,15 @@ table {
 
   td.mat-cell{
     padding:10px;
+    cursor: pointer;
   }
+
+  tr.mat-row{
+    &:hover{
+      background: #f3f2f2;
+    }
+  }
+
   th.mat-header-cell{
     padding:10px;
   }
